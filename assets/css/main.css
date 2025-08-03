@@ -537,11 +537,56 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Landing Page Styles
+--------------------------------------------------------------*/
+
+.landing-page {
+  overflow-x: hidden;
+}
+
+.landing-page .main.full-width {
+  margin-left: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.landing-page .hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.landing-page .hero .hero-content {
+  width: 100%;
+  max-width: 100%;
+}
+
+.landing-page .hero .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/*--------------------------------------------------------------
 # Karin Input
 --------------------------------------------------------------*/
 
 .centered-content {
   text-align: center;
+}
+
+.hero-actions.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.hero-actions.centered-content .btn {
+  margin: 0;
 }
 .italic-text {
   font-style: italic;
